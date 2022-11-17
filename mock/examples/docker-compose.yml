@@ -10,7 +10,7 @@ services:
       demo:
     volumes:
       - type: bind
-        source: ../api/reg-bb-api.json 
+        source: ../api/Registration-BB-API.json 
         target: /data 
   pytest:
    build:
