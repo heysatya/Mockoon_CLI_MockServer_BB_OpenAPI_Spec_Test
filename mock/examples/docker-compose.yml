@@ -10,11 +10,11 @@ services:
       demo:
     volumes:
       - type: bind
-        source: ../api/Registration-BB-API.json 
+        source: ../../api/Registration-BB-API.json 
         target: /data 
   pytest:
    build:
-     context: ../test/.
+     context: ../../test/.
    container_name: pytest
    tty: true
    stdin_open: true
