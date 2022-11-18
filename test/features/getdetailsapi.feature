@@ -1,8 +1,8 @@
 @apitest @duckduckgo
 Feature: BB API Integration Testing  
-  As a API Integration Team,
+  As a API Testing Team Member,
   I want to Test API Specs and Endpoint of App Services,
-  So I can Test App is  GovStack Compliant.
+  So I can Test App is GovStack Compliant.
 
   # The "@" annotations are tags
   # One feature can have multiple scenarios
