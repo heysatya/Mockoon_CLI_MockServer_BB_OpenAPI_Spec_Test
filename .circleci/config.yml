@@ -13,16 +13,16 @@ jobs:
           command:
             'echo testing all examples in /examples against test suite in /test'     
       - run:
-          name: Deploy Mock APP for BB API and PyTest Containers
+          name: Deploy Mockoon for BB API and PyTest 
           command: cd mock/examples && docker-compose up --build -d
       - run:
-          name: Check Status of Mock App and API-Testing Containers
+          name: Check Status of Mockoon and API-Testing Containers
           command: docker ps
       - run:
-          name: Testing Api
+          name: Testing APIs
           command: 'echo testing using containers' 
       - run:
-          name: Check Status of Testing Containers are Deployed 
+          name: Check Status if Testing Containers are Deployed 
           command: docker ps
       - run:
           name: Run Cucumber tests against BB Mock Server using Mockoon
